@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $PATH)",
+      "Bash(brew:*)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(echo $SHELL)",
+      "Read(//Users/timgan/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
